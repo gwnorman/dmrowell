@@ -1,0 +1,283 @@
+// Global
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.div-line {
+  border-bottom: solid 1px #CCC;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.link-look {
+  color: green;
+  text-decoration: underline;
+}
+
+
+
+nav.navbar.navbar-top-default.navbar-expand-lg.navbar-simple.nav-box-round {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fullscreen {
+  @media (max-width: 575px) {
+    height: 900px !important;
+  }
+}
+
+header {
+  //a.logo {
+  //    img {
+  //      max-height: 35px;
+  //      max-width: 200px;
+  //      vertical-align: sub;
+  //
+  //    }
+  //}
+  nav.navbar.navbar-top-default.navbar-expand-lg.navbar-simple.nav-box-round {
+    background-color: rgba(0, 0, 0, 0.3); }
+    &.header-appear {
+      nav.navbar.navbar-top-default.navbar-expand-lg.navbar-simple.nav-box-round {
+        background-color: #FFF;
+    }
+  }
+  &.header-appear {
+    a.logo {
+        img {
+          max-height: 48px;
+          max-width: 230px;
+          vertical-align: sub;
+
+        }
+    }
+  }
+}
+.hm-hero {
+  margin-top: 150px;
+  color: #fff;
+  p {
+    color: #FFF;
+    padding-top: 50px;
+    font-size: 18px;
+  }
+  h2 {
+    @media (min-width: 740px) and (max-width: 1199px) {
+      font-size: 45px;
+    }
+  }
+}
+.special-bar {
+  margin: 0;
+  padding: 0;
+  background-color: #850a0a;
+  color: #FFF;
+  .container {
+    padding: 10px 0;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  span {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .btn {
+    border-radius: 15px;
+  }
+}
+
+// Sticky Navigation & Nav flyout edits
+.header-appear .navbar-simple .navbar-nav .nav-link:hover {
+  color: #5c9320;
+}
+.header-appear .nav-box-round .navbar-nav .nav-link.active, .owl-dots .owl-dot::after, .footer-social li a:hover {
+  background-color: #5c9320;
+}
+.nav-line .navbar-nav .nav-link:before, .button-play, .price-two.hvr-blue:hover, .side-menu, .error-text h2, .blog-pagination li a:hover, .blog-pagination li.active a, .blog-pagination li a:focus, .wexim .tp-bullet.selected .tp-bullet-inner {
+  background: #5c9320;
+}
+
+// End navigation edits
+
+.social-bar {
+  background-color: #464232;
+  color: #FFF;
+  p {
+    color: #FFF;
+  }
+  .fa {
+    font-size: 40px;
+    &:hover {
+      color: #00A8FF;
+    }
+  }
+  .col {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  img {
+    max-width: 40px;
+    height: auto;
+  }
+  .col-md-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media (max-width: 640px) {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+#email_capture {
+  border: 5px solid #000;
+  width: 600px;
+  height: 300px;
+  padding: 50px;
+  .capture_form {
+    .capture-form-field {
+      width: 300px;
+      display: block;
+    }
+  }
+}
+
+#agent_capture {
+  border: 5px solid #000;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 50px;
+  .capture_form {
+    .capture-form-field {
+      width: 300px;
+      display: block;
+    }
+  }
+}
+
+
+// About page
+.about-page {
+  .fa {
+    &.fa-trophy {
+      color: #5c9320
+    }
+  }
+}
+
+.about-block {
+  p {
+    margin-bottom: 25px;
+  }
+}
+
+.gradient-bg1, .team-progress .progress-bar, .team-box .overlay:before, .cube-portfolio1 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap, .overlay-two:before, .price-two.hvr-gradient:hover, .loader {
+    background: rgba(92, 147, 32, 0.6);
+}
+.about-projects {
+
+}
+.features {
+  i.fa {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #5c9320;
+  }
+
+}
+.feature-img {
+  padding-top: 30px!important;
+  @media (max-width: 640px) {
+    margin-bottom: 30px;
+  }
+}
+.feature-content {
+  margin-bottom: 20px !important;
+}
+.about-author-block {
+  p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+.sub-t {
+  color: #5c9320;
+}
+
+
+// Media page
+.videos-header {
+  margin-bottom: 30px;
+  h3 {
+    margin-bottom: 15px;
+  }
+}
+
+
+//HEADER
+.gradient-bg1 {
+  background: rgba(92, 147, 32, 0.2);
+}
+
+// HeroO
+
+.about-hero-bg-img {
+  background: url(../images/about-hero-img.jpg);
+}
+.kiowas-hero-bg-img {
+  background: url(../images/kiowas-hero-img.jpg);
+}
+.contact-hero-bg-img {
+  background: url(../images/header-banner-creationstory.png);
+}
+.kiowa-seal-hero-bg-img {
+  background: url(../images/header-banner-kiowa-seal.jpg);
+}
+
+
+
+// FOOTER
+.bg-dark-gray {
+  background-color: #EEE;
+}
+
+.chapters {
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+
+// HOme
+#blog {
+  h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+  }
+}
+.logo-art {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+.book-title {
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
