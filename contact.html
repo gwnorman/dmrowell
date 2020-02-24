@@ -228,8 +228,8 @@
                     <div class="row">
                         <form action="https://formspree.io/xpzrabkk" method="POST" id="capture_form" class="" style="margin-left: 20px">
                             <input type="hidden" id="this_form" name="this_form" value="mailing_list">
-                            <input type="text" name="name" class="capture-form-field" placeholder="Your name" style="margin-bottom: 10px"><br>
-                            <input type="email" name="email" class="capture-form-field" placeholder="email address" style="margin-bottom: 10px"><br>
+                            <input type="text" name="name" class="capture-form-field" placeholder="Your name" style="margin-bottom: 10px" required><br>
+                            <input type="email" name="email" class="capture-form-field" placeholder="email address" style="margin-bottom: 10px" required><br>
                             <input type="submit" value="Send" class="btn btn-large btn-gradient mt-4">
                         </form>
                     </div>
@@ -255,11 +255,11 @@ SIGN UP MODAL
 
         <form action="https://formspree.io/xpzrabkk" method="POST" id="capture_form">
             <input type="hidden" id="this_form" name="this_form" value="agent_contact">
-            <input type="text" name="name" class="capture-form-field" placeholder="Your name" style="margin-bottom: 10px"><br>
-            <input type="email" name="email" class="capture-form-field" placeholder="email address" style="width: 300px">
+            <input type="text" name="name" class="capture-form-field" placeholder="Your name" style="margin-bottom: 10px" required><br>
+            <input type="email" name="email" class="capture-form-field" placeholder="email address" style="width: 300px" required>
             <br>
             <br>
-            <textarea rows="4" cols="50" placeholder="comments" name="comments"></textarea>
+            <textarea rows="4" cols="50" placeholder="comments" name="comments" required></textarea>
             <br>
             <br>
             <input type="submit" value="Send" class="btn btn-large btn-gradient mt-4">
