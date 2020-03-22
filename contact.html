@@ -270,51 +270,6 @@ SIGN UP MODAL
 
 
 
-<!--Contact Start-->
-<!--<section>-->
-    <!--<div class="container">-->
-
-        <!--&lt;!&ndash;contact us&ndash;&gt;-->
-        <!--<form class="contact-form">-->
-            <!--<div class="row">-->
-
-                <!--<div class="col-sm-12" id="result"></div>-->
-
-                <!--<div class="col-md-6 col-sm-6">-->
-                    <!--<div class="form-group">-->
-                        <!--<input class="form-control" type="text" placeholder="First Name:" required="" id="first_name" name="first_name">-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-sm-6">-->
-                    <!--<div class="form-group">-->
-                        <!--<input class="form-control" type="text" placeholder="Last Name:" required="" id="last_name" name="last_name">-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-sm-6">-->
-                    <!--<div class="form-group">-->
-                        <!--<input class="form-control" type="email" placeholder="Email:" required="" id="email" name="email">-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-6 col-sm-6">-->
-                    <!--<div class="form-group">-->
-                        <!--<input class="form-control" type="tel" placeholder="Phone:" id="phone" name="phone">-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-md-12 col-sm-12">-->
-                    <!--<div class="form-group">-->
-                        <!--<textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<div class="col-sm-12">-->
-                    <!--<button type="submit" class="btn btn-large btn-gradient mt-4" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <span>Contact Now</span></button>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</form>-->
-    <!--</div>-->
-<!--</section>-->
-<!--Contact End-->
-
-
 <!--Footer Start-->
 <section class="bg-light text-center">
     <h2 class="d-none">hidden</h2>
@@ -322,16 +277,11 @@ SIGN UP MODAL
         <div class="row">
             <div class="col-md-12">
                 <div class="footer-social">
-                    <ul class="list-unstyled">
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <ul class="list-unstyled" id="footer_social">
+
                     </ul>
                 </div>
-                <p class="company-about fadeIn">© 2019 Wexim. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
+                <p class="company-about fadeIn">© 2020 D.M. Rowell</p>
             </div>
         </div>
     </div>
@@ -378,6 +328,12 @@ SIGN UP MODAL
 <script src="js/map.js"></script>
 <!-- custom script -->
 <script src="js/script.js"></script>
+<script>
+    $(function() {
+        $("#footer_social").load("social-footer.html");
+        $("#flyout_social").load("social-flyout.html");
+    });
 
+</script>
 </body>
 </html>
